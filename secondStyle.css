@@ -1,0 +1,83 @@
+@import url("project1-style.css");
+
+a {
+    color: #11b1fc;
+}
+
+.box1,
+.box2 {
+    border: 1px solid gray;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    gap: 10px;
+}
+
+.side {
+    padding: 35px;
+
+}
+
+.ulist {
+    list-style: none;
+    margin-left: 12px;
+}
+.arc{
+    margin-left: 12px;
+
+}
+
+.card {
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: #8a8383;
+    border: 2px solid #8a8383;
+
+}
+
+#btn1 {
+    color: #11b1fc;
+    border: 2px solid #11b1fc;
+
+}
+
+.list,
+.olist {
+    margin-left: 35px;
+}
+
+#Elsewhere {
+    margin-top: 30px;
+}
+
+#date {
+    font-size: 10px;
+    color: gray;
+    margin-top: 7px;
+
+}
+
+@media(max-width:700px) {
+    .center {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media(min-width:1200px) {
+    .center {
+        grid-template-columns: 75% 25%;
+    }
+}
