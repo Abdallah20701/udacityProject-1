@@ -1,0 +1,10 @@
+.header {
+    grid-area: hd;
+}
+
+.header-split {
+    display: flex;
+
+    justify-content: space-between;
+
+}

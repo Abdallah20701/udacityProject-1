@@ -1,0 +1,39 @@
+@import url("header.css");
+@import url("footer.css");
+@import url("main.css");
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color: #11b1fc;
+}
+
+
+
+
+
+
+@media(min-width:600px) {
+    .content {
+        grid-template-columns: repeat(2, auto);
+        gap: 25px;
+
+    }
+
+    .box {
+        width: 100%;
+    }
+}
+
+@media(min-width:1200px) {
+    .content {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 35px;
+    }
+}
