@@ -9,9 +9,14 @@
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
-
+.box h3{
+    color: aquamarine;
+}
 a {
     color: #11b1fc;
+}
+.sublink{
+    padding: 30px;
 }
 
 
